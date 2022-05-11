@@ -10,10 +10,11 @@ import CoreData
 
 struct ContentView: View {
     
-    
+//    @StateObject var habitModel: HabitViewModel  = .init()
 
     var body: some View {
         
+//        AddNewHabit().environmentObject(habitModel)
        Home()
             .preferredColorScheme(.dark)
     }
